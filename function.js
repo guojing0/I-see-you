@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $(window).resize();
+    $("#display").fadeIn(3000);
     updateTime();
 });
 
