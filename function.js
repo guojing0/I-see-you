@@ -23,4 +23,7 @@ function updateTime() {
     $('.days-number').text("" + days);
     $('.seconds').text(hours + " hours " + minutes + " minutes " + seconds + " seconds");
     setTimeout("updateTime()", 1000);
+
 }
+
+/ The code is from lovett.cc, the author is zellux whose blog is http://blog.yxwang.me/ /
