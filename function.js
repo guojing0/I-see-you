@@ -26,4 +26,4 @@ function updateTime() {
 
 }
 
-/ The code is from lovett.cc, the author is zellux whose blog is http://blog.yxwang.me/ /
+/* The code is from lovett.cc, the author is zellux whose blog is http://blog.yxwang.me/ */
