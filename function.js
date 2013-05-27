@@ -21,7 +21,7 @@ function updateTime() {
         hours = "0" + hours;
     duration = parseInt(duration / 24);
     var days = duration;
-    $('.days-number').text("" + Days);
+    $('.days-number').text("" + days);
     $('.seconds').text(hours + " hours " + minutes + " minutes " + seconds + " seconds");
     setTimeout("updateTime()", 1000);
 
