@@ -9,10 +9,13 @@
     <style type="text/css">
     
     body {
+	background-color: #FFFFFF;
+	background-image: -moz-linear-gradient(top, #FAD7DE, #FFFFFF); /* Firefox */
+	background-image: -webkit-linear-gradient(top, #FAD7DE, #FFFFFF);
+        background-image: linear-gradient(to bottom, #FAD7DE; #FFFFFF);
 	margin: auto;
-        height: 100%;
 	width: 50%;
-	border: 1px solid #FFFFFF;
+	height: 100%;
     }
 
     .intro {
@@ -20,15 +23,22 @@
         font-style: italic;
 	color: #019FDE;
         margin: auto;
-        position: absolute; bottom: 10px; right: 10px;
+	position: absolute; bottom: 10px; right: 10px;
     }
+   
+    .comment {
+	font-style: italic;
+	font-family: "Andale Mono";
+	margin: auto;
+	text-align: center;
+    } 
     
     .days {
         font-family: "Lucida Console", Monaco, monospace;
 	font-size: 62px;
 	width: auto;
 	text-align: center;
-	margin: 162px auto;
+	margin: 90px auto;
     }
 
     .days-label {
@@ -44,15 +54,21 @@
     <title>I See You</title>
   </head>
 
-  <body style="background-color:#f2f2f2">
+  <body>
 
   <a href="https://github.com/guojing0"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-  <div class="container">
-    <div id="display" style="display: none"  class="days">
-      <span class="days-number">2013</span>
-      <span class="days-label">days</span>
-      <br><span class="seconds"></span>
-    </div>
+
+  <div id="display" style="display: none"  class="days">
+    <span class="days-number">2013</span>
+    <span class="days-label">days</span>
+    <br><span class="seconds"></span>
+  </div>
+
+  <div id="comments" style="display: none" class="comment">
+    <p>When I look into your eyes,</p>
+    <p>And you look in mine.</p>
+    <p>I still remember</p>
+    <p>We walk along the path.</p>
   </div>
 
     <div class="intro">

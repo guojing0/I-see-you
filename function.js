@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $(window).resize();
+    $("#comments").fadeIn(5000);
     $("#display").fadeIn(4000);
     updateTime();
 });
@@ -27,4 +28,4 @@ function updateTime() {
 
 }
 
-/* The code is from lovett.cc, the author is zellux whose blog is http://blog.yxwang.me/ */
+/* The code is from lovett.cc, and I made some little changes. The author is zellux whose blog is http://blog.yxwang.me/ */
