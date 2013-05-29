@@ -1,7 +1,10 @@
 $(document).ready(function() {
     $(window).resize();
-    $("#comments").fadeIn(5000);
     $("#display").fadeIn(4000);
+    $("#item0").delay(800).fadeIn(4000);
+    $("#item1").delay(1300).fadeIn(4000);
+    $("#item2").delay(1800).fadeIn(4000);
+    $("#item3").delay(2300).fadeIn(4000);
     updateTime();
 });
 
