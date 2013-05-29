@@ -5,6 +5,9 @@ $(document).ready(function() {
     $("#item1").delay(1300).fadeIn(4000);
     $("#item2").delay(1800).fadeIn(4000);
     $("#item3").delay(2300).fadeIn(4000);
+    $("#item4").delay(2800).fadeIn(4000);
+    $("#item5").delay(3300).fadeIn(4000);
+    $("#item6").delay(3800).fadeIn(4000);
     updateTime();
 });
 
